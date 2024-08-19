@@ -7,7 +7,7 @@ st.sidebar.header("손금이란?")
 st.markdown("#### 손금이 상징하는 바는 무엇인가?")
 st.markdown("‘손금’은 손의 주인이 지금까지 살아온 길과 나아갈 미래를 예측하는 데 사용됩니다. 각 손금의 의미는 길이, 깊이, 곡률에 따라 달라집니다. 양손의 손금이 동일한 사람은 없기 때문에 모든 요소를 종합적으로 판단해서 해석하는 것이 중요합니다. 각각의 손금이 시작하고 끝나는 지점, 손금이 손의 어느 부위를 지나치는지, 어느 부분에서 교차하는지를 파악하는 것이 중요하다는 것이죠.")
 
-img = image.open('streamlit_tset/hand.png')
+img = image.open('/mount/src/streamlit_tset/hand.png')
 st.image(img)
 
 st.markdown("#### 감정선")
